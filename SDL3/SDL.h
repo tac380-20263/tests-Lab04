@@ -3,7 +3,7 @@
 
 #include <string>
 
-void SDL_Log(...);
+inline void SDL_Log(...) { }
 
 struct SDL_Texture
 {
